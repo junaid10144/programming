@@ -16,7 +16,7 @@ export class MessageDetailsComponent {
   delete: EventEmitter<number> = new EventEmitter<number>()
 
 
-  onDelete(): void {
+  onDelete() {
     this.delete.emit(this.index);
 
   }

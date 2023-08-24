@@ -11,7 +11,7 @@ export class MenuComponent {
   constructor(private router: Router) {
 
   }
-  navigateToAbout(): void {
+  navigateToAbout() {
     this.router.navigate(['about'])
   }
 
